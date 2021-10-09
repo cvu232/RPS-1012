@@ -21,5 +21,6 @@ Functional Requirements:
 - Endless mode will use a counter to keep track of number of wins the player gets before losing their streak.
 - After losing in endless mode, leaderboard screen is then displayed. If player set a highscore, players will be able to input their name on the board.
 - Users will be able to either "return to menu" or "play again" through buttons at the bottom of the screen.
+- Music will be played to add some flavour to the gameplay.
 
 
