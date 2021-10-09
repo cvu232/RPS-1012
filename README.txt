@@ -12,9 +12,10 @@ Similar to the Rock, Paper, Scissors example prompt in the document, the site wi
 Functional Requirements:
 
 - Two modes of RPS will be available as a menu. Choosing either or will take you to the same game screen aesthetically, but functionally different.
-- Player vs. Server style for this site.
+- Player vs. Server and Player vs Player style for this site.
 - Three buttons will exist with "rock", "paper", "scissor" options for players to make their choice on the left side (player side).
 - Right side will also have three buttons similar to the left side to display the server's choice (to provide visual feedback).
+- Display images or gifs to represent when a user wins game, wins round, loses round, or gets a game over.
 - A header will display "player" on the left side and "CPU" on the right side.
 - Normal mode will allow best of 5 matches with the server.
 - Endless mode will use a counter to keep track of number of wins the player gets before losing their streak.
