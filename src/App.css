@@ -1,0 +1,123 @@
+* {
+  background-color: #2f394e;
+  font-family: "Press Start 2P", cursive;
+  color: white;
+}
+
+body {
+  font-size: 20px;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  /* height didn't really do anything. */
+}
+
+h1 {
+  color: #61dafb;
+  margin: 0%;
+}
+
+h6 {
+  color: #61dafb;
+  /* 
+  Alternative for margin-top, margin-bottom
+  margin: 1vmax; 
+  */
+  margin-bottom: 5px;
+  margin-top: 1vh;
+}
+
+.score {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.choice {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+}
+
+.computer-hand {
+  width: 250px;
+}
+
+.user-hand {
+  width: 250px;
+  transform: rotateY(180deg);
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+  padding: 10px;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #61dafb;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result {
+  padding: 0px;
+  font-size: 20px;
+}
+
+.App-logo {
+  margin-bottom: 50px;
+  height: 20vmin;
+  pointer-events: none;
+}
+
+footer {
+  padding-bottom: 2vmin;
+  background-color: #2f394e;
+  font-size: 8px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App img.start {
+  max-width: 250px;
+  margin: 3vmax;
+}
+
+.App-header {
+  background-color: #2f394e;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 2vmin;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
